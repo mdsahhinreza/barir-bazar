@@ -1,9 +1,10 @@
 import React from 'react'
+import Slider from './Slider'
 
 const Homepage = () => {
     return (
-        <div style={{ height: "60vh" }}>
-            <p className='my-2'>Home</p>
+        <div>
+            <Slider></Slider>
         </div>
     )
 }

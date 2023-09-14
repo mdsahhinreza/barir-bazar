@@ -16,9 +16,9 @@ const GuestNav = () => {
                     <Nav className="justify-content-center" activeKey="/home">
                         <NavbarSearch></NavbarSearch>
                         <div className='ps-2 navbar-button-div'>
-                            <button className='navbar-shopping-btn me-2'><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button className='navbar-shopping-btn me-2'><i className="fa-solid fa-cart-shopping"></i></button>
                             <button className='navbar-user-btn'>
-                                <i class="fa-solid fa-user-gear"></i>
+                                <i className="fa-solid fa-user-gear"></i>
                             </button>
                         </div>
                     </Nav>
@@ -33,10 +33,10 @@ const GuestNav = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Link className='nav-link mx-md-3' to="/"><i class="fa-solid fa-house"></i> Home</Link>
-                            <Link className='nav-link mx-md-3' to="/"><i class="fa-solid fa-burger"></i> Food</Link>
-                            <Link className='nav-link mx-md-3' to="/"><i class="fa-solid fa-bag-shopping"></i> Grocery</Link>
-                            <Link className='nav-link mx-md-3' to="/"><i class="fa-solid fa-stethoscope"></i> Pharmacy</Link>
+                            <Link className='nav-link mx-md-3' to="/"><i className="fa-solid fa-house"></i> Home</Link>
+                            <Link className='nav-link mx-md-3' to="/"><i className="fa-solid fa-burger"></i> Food</Link>
+                            <Link className='nav-link mx-md-3' to="/"><i className="fa-solid fa-bag-shopping"></i> Grocery</Link>
+                            <Link className='nav-link mx-md-3' to="/"><i className="fa-solid fa-stethoscope"></i> Pharmacy</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
