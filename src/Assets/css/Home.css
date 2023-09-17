@@ -1,0 +1,12 @@
+.fCategory{
+    box-shadow: 3px 4px 31px -4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 4px 31px -4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 4px 31px -4px rgba(0,0,0,0.5);
+}
+.fCategory i{
+    font-size: 50px;
+}
+.fCategory p{
+    font-size: 18px;
+    padding-top: 8px;
+}
