@@ -5,6 +5,7 @@ import '../../../Assets/css/Home.css';
 import MostSelling from './MostSelling';
 import Featured from './Featured';
 import CTA from './CTA';
+import Ad from './Ad';
 
 const Homepage = () => {
     return (
@@ -14,6 +15,7 @@ const Homepage = () => {
             <MostSelling></MostSelling>
             <Featured></Featured>
             <CTA></CTA>
+            <Ad></Ad>
         </div>
     )
 }

@@ -5,9 +5,9 @@ import { IconEye, IconHeart, IconHeartFilled, IconShoppingCart, IconStarFilled }
 
 const ProductCard = () => {
     return (
-        <div className="card">
+        <div className="card pb-2">
             <div className="position-relative">
-                <img src={cardImage} className="card-img-top" alt="..."/>
+                <img height={361} width={361} src={cardImage} className="card-img-top" alt="..."/>
                 <div className="position-absolute productCard d-flex gap-2">
                     <button className='btn btn-warning p-2 rounded-circle '><IconEye></IconEye></button>
                     <button className='btn btn-warning p-2 rounded-circle '><IconShoppingCart></IconShoppingCart></button>
@@ -19,8 +19,8 @@ const ProductCard = () => {
                         <h5 className="card-title">Awesome Pizza</h5>
                         <p className='text-danger'>20 <IconHeartFilled></IconHeartFilled></p>
                     </div>
-                    <div className="d-flex gap-3">
-                        <img className='rounded-circle' height={50} src={pizza} alt="Pizza hut" />
+                    <div className="d-flex align-items-center gap-3">
+                        <img className='rounded-circle' height={54} width={54} src={pizza} alt="Pizza hut" />
                         <div>
                             <h5 className='m-0'>Pizza Hut</h5>
                             <div>
@@ -32,7 +32,7 @@ const ProductCard = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between align-items-center">
                         <p className='align-items-center pt-2'>Price: 450 BDT</p>
                         <a href="#" className="btn btn-secondary">Buy Now</a>
                     </div>
